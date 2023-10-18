@@ -22,7 +22,7 @@ $(document).ready(function() {
 
        jQuery.validator.addMethod("exactlength", function(value, element, param) {
         return this.optional(element) || value.length == param;
-       }, $.validator.format("enter exact 10 numbers"));
+       }, $.validator.format("enter a valid number"));
 
 
 
